@@ -1,5 +1,5 @@
 import csv
-from library.books.models import models
+from books.models import Books
 
 def csv_to_list(filename: str) -> list:
     with open(filename) as csv_file:
